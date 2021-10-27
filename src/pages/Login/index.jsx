@@ -11,7 +11,7 @@ export default function Login() {
   const history = useHistory();
 
   function handleLogin() {
-    history.push("/my-decks");
+    history.push("/dashboard");
   }
 
   return (

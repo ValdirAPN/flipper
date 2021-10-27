@@ -48,7 +48,7 @@ export const FormWrapper = styled.form`
 
   button {
     width: 100%;
-    height: 64px;
+    height: 54px;
     border: 0;
     border-radius: 8px;
     margin-top: 1rem;
