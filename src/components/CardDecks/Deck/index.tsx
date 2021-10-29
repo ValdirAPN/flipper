@@ -1,15 +1,18 @@
+import { Link } from 'react-router-dom';
 import { Container } from './styles';
 
 interface DeckProps {
   deckInfo: {
-    subject: string
+    id: number,
+    name: string
   };
 }
 
 export default function Deck({ deckInfo }: DeckProps) {
   return (
     <Container>
-      {deckInfo.subject}
+      <h3>{deckInfo.name}</h3>
+      <Link to={`/play/${deckInfo.id}`}>Jogar</Link>
     </Container>
   );
 }

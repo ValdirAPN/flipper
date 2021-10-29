@@ -68,6 +68,12 @@ export const FormWrapper = styled.form`
   a {
     color: #fff;
     margin-top: 0.5rem;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 4px;
+
+    &:hover {
+      border-color: #fff;
+    }
   }
 
   .login-with-google {
@@ -85,6 +91,22 @@ export const FormWrapper = styled.form`
 
     &:hover {
       background: ${({ theme }) => theme.colors.actionDark};
+    }
+  }
+
+  & > span {
+    
+    font-weight: 800;
+    color: #fff;
+    
+    margin-top: 2rem;
+
+    a {
+      color: ${({ theme }) => theme.colors.secondary};
+      background: #fff;
+
+      margin-left: 8px;
+      padding: 0 4px;
     }
   }
 `;

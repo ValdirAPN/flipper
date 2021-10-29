@@ -2,7 +2,7 @@
   "decks": [
     {
       "id": 1,
-      "subject": "HTML",
+      "name": "HTML",
       "questions": [
         {
           "id": 1,
@@ -14,7 +14,7 @@
     },
     {
       "id": 2,
-      "subject": "CSS",
+      "name": "CSS",
       "questions": [
         {
           "id": 1,
@@ -26,7 +26,7 @@
     },
     {
       "id": 3,
-      "subject": "React",
+      "name": "React",
       "questions": [
         {
           "id": 1,
@@ -38,7 +38,7 @@
     },
     {
       "id": 4,
-      "subject": "Node",
+      "name": "Node",
       "questions": [
         {
           "id": 1,
@@ -50,7 +50,7 @@
     },
     {
       "id": 5,
-      "subject": "TypeScript",
+      "name": "TypeScript",
       "questions": [
         {
           "id": 1,
@@ -62,7 +62,7 @@
     },
     {
       "id": 6,
-      "subject": "Sass",
+      "name": "Sass",
       "questions": [
         {
           "id": 1,
@@ -74,7 +74,7 @@
     },
     {
       "id": 7,
-      "subject": "Git",
+      "name": "Git",
       "questions": [
         {
           "id": 1,

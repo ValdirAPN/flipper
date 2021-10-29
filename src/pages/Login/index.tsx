@@ -33,6 +33,11 @@ export default function Login() {
           <FaGoogle />
           <span>entrar com o Google</span>
         </button>
+
+        <span>
+          Não tem uma conta?
+          <Link to="/">Cadastre-se.</Link>
+        </span>
       </FormWrapper>
     </Container>
   );
