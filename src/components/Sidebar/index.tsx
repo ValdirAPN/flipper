@@ -1,6 +1,8 @@
-import { Container, Footer, Header, Menu } from "./styles";
+import {
+  Container, Footer, Header, Menu,
+} from './styles';
 
-import avatar from '../../assets/images/avatar.png'
+import avatar from '../../assets/images/avatar.png';
 import logo from '../../assets/images/logo-white.svg';
 import cardsIcon from '../../assets/images/icons/cards-outline.svg';
 

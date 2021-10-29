@@ -1,17 +1,16 @@
-import { useHistory } from 'react-router-dom';
+import { useHistory, Link } from 'react-router-dom';
 
 import { FaGoogle } from 'react-icons/fa';
 
-import { Container, FormWrapper } from "./styles";
+import { Container, FormWrapper } from './styles';
 
-import logo from '../../assets/images/logo-white-v1.svg'
-import { Link } from "react-router-dom";
+import logo from '../../assets/images/logo-white-v1.svg';
 
 export default function Login() {
   const history = useHistory();
 
   function handleLogin() {
-    history.push("/dashboard");
+    history.push('/dashboard');
   }
 
   return (

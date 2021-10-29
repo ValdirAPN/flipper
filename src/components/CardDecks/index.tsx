@@ -1,5 +1,5 @@
-import Deck from "./Deck";
-import { Container } from "./styles";
+import Deck from './Deck';
+import { Container } from './styles';
 
 import decks from '../../services/decks.json';
 
