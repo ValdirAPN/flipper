@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.aside`
-  width: 320px;
+  width: 380px;
   height: 100vh;
   background: ${({ theme }) => theme.colors.secondary};
   color: #fff;
@@ -12,7 +12,7 @@ export const Container = styled.aside`
   align-items: center;
   justify-content: space-between;
 
-  padding: 3rem;
+  padding: 3rem 2rem;
 `;
 
 export const Header = styled.header`

@@ -6,8 +6,6 @@ import defaultTheme from './assets/styles/themes/default';
 
 import Routes from './Routes';
 
-
-
 function App() {
   return (
     <BrowserRouter>

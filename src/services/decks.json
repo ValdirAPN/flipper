@@ -1,0 +1,88 @@
+{
+  "decks": [
+    {
+      "id": 1,
+      "subject": "HTML",
+      "questions": [
+        {
+          "id": 1,
+          "difficulty": "easy",
+          "title": "O que é o HTML?",
+          "answer": "Uma linguagem de marcação."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "subject": "CSS",
+      "questions": [
+        {
+          "id": 1,
+          "difficulty": "easy",
+          "title": "O que é o CSS?",
+          "answer": "Uma folha de estilos em cascata."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "subject": "React",
+      "questions": [
+        {
+          "id": 1,
+          "difficulty": "easy",
+          "title": "O que é o React?",
+          "answer": "Uma biblioteca JavaScript."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "subject": "Node",
+      "questions": [
+        {
+          "id": 1,
+          "difficulty": "easy",
+          "title": "O que é o Node?",
+          "answer": "Uma ambiente de execução de JavaScript."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "subject": "TypeScript",
+      "questions": [
+        {
+          "id": 1,
+          "difficulty": "easy",
+          "title": "O que é o TypeScript?",
+          "answer": "Um superset do JavaScript."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "subject": "Sass",
+      "questions": [
+        {
+          "id": 1,
+          "difficulty": "easy",
+          "title": "O que é o Sass?",
+          "answer": "Um pré-processador de CSS."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "subject": "Git",
+      "questions": [
+        {
+          "id": 1,
+          "difficulty": "easy",
+          "title": "O que é o Git?",
+          "answer": "Um software de versionamento."
+        }
+      ]
+    }
+  ]
+}

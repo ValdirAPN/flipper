@@ -1,7 +1,12 @@
+import CardDecks from "../../components/CardDecks";
 import Sidebar from "../../components/Sidebar";
+import { Container } from "./styles";
 
 export default function Dashboard() {
   return (
-    <Sidebar />
+    <Container>
+      <Sidebar />
+      <CardDecks />
+    </Container>
   );
 }
